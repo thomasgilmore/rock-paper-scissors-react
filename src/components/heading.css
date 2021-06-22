@@ -1,0 +1,22 @@
+.headingDiv {
+    align-items: center;
+    display: flex;
+    margin: 10px auto;
+    justify-content: center;
+}
+
+.card {
+    align-items: center;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    margin: 0 150px 0 0;
+    padding: 10px;
+}
+
+.score {
+    padding: 10px;
+}
