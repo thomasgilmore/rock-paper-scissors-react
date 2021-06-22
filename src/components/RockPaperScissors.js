@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Heading from './Heading';
 import logo from '../images/logo.svg';
+import './rockpaperscissors.css';
 
 export default class RockPaperScissors extends Component {
     constructor(props) {
