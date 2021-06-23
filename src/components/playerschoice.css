@@ -1,0 +1,25 @@
+.rockButton {
+    background-image: url('../images/icon-rock.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50px;
+    border-top: 6px solid lightgray;
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
+    border-radius: 100%;
+    cursor: pointer;
+    margin: 5px;
+    width: 100px;
+    height: 100px;
+}
+
+.rockButtonBorder {
+    border-radius: 100%;
+    width: 110px;
+    /* max-width: 250px; */
+    /* padding: 1rem; */
+    /* position: relative; */
+    background: linear-gradient(hsl(349, 71%, 52%), hsl(349, 70%, 56%));
+    padding: 10px;
+}
