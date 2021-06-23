@@ -24,3 +24,27 @@
     background: linear-gradient(hsl(349, 71%, 52%), hsl(349, 70%, 56%));
     padding: 10px;
 }
+
+.paperButton {
+    background-image: url('../images/icon-paper.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50px;
+    border-top: 6px solid lightgray;
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
+    border-radius: 100%;
+    cursor: pointer;
+    margin: 5px;
+    width: 100px;
+    height: 100px;
+}
+
+.paperButtonBorder {
+    border-bottom: 6px solid hsl(230, 60%, 46%);
+    border-radius: 100%;
+    width: 110px;
+    background: linear-gradient(hsl(230, 89%, 62%), hsl(230, 89%, 65%));
+    padding: 10px;
+}
