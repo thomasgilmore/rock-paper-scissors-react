@@ -8,6 +8,7 @@ export default function PlayersChoice(props) {
             <img src={backgroundTriangle} className="backgroundTriangle" alt="backgroundTriangle" />
             <div className="rockButtonBorder"><button className="rockButton"></button></div>
             <div className="paperButtonBorder"><button className="paperButton"></button></div>
+            <div className="scissorButtonBorder"><button className="scissorButton"></button></div>
         </div>
     )
 }
