@@ -15,6 +15,7 @@
 }
 
 .rockButtonBorder {
+    border-bottom: 6px solid hsl(349, 81%, 39%);
     border-radius: 100%;
     width: 110px;
     /* max-width: 250px; */
