@@ -1,7 +1,7 @@
 import React from 'react';
-import './rules.css';
+import './rulesbutton.css';
 
-export default function Rules() {
+export default function RulesButton() {
     return (
         <div className="rulesButtonDiv">
             <button className="rulesButton">RULES</button>

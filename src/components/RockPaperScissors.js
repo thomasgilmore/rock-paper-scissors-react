@@ -3,7 +3,7 @@ import Heading from './Heading';
 import logo from '../images/logo.svg';
 import './rockpaperscissors.css';
 import PlayersChoice from './PlayersChoice';
-import Rules from './Rules';
+import RulesButton from './RulesButton';
 
 export default class RockPaperScissors extends Component {
     constructor(props) {
@@ -18,7 +18,7 @@ export default class RockPaperScissors extends Component {
             <div>
                 <Heading img={logo} score={this.state.score} />
                 <PlayersChoice />
-                <Rules />
+                <RulesButton />
             </div>
         )
     }
