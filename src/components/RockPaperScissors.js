@@ -27,6 +27,7 @@ export default class RockPaperScissors extends Component {
         this.rockButtonChoiceClick = this.rockButtonChoiceClick.bind(this);
         this.paperButtonChoiceClick = this.paperButtonChoiceClick.bind(this);
         this.scissorsButtonChoiceClick = this.scissorsButtonChoiceClick.bind(this);
+        this.playAgain = this.playAgain.bind(this);
     }
 
     rulesButtonClick() {
@@ -108,6 +109,11 @@ export default class RockPaperScissors extends Component {
         this.setState({ playersChoice, playerChose: true, computersChoice});
     }
 
+    playAgain() {
+        console.log("working");
+        this.setState({ playerChose: false, playerIsWinner: false, computerIsWinner: false, isTie: false });
+    }
+
     render() {
         return (
             <div>
@@ -116,7 +122,9 @@ export default class RockPaperScissors extends Component {
                     computersChoice={this.state.computersChoice} 
                     isTie={this.state.isTie}
                     playerIsWinner={this.state.playerIsWinner}
-                    computerIsWinner={this.state.computerIsWinner} /> : 
+                    computerIsWinner={this.state.computerIsWinner}
+                    playAgain={this.playAgain} /> 
+                    : 
                     <PlayersChoice rockButtonChoiceClick={this.rockButtonChoiceClick}
                     paperButtonChoiceClick={this.paperButtonChoiceClick}
                     scissorsButtonChoiceClick={this.scissorsButtonChoiceClick} />
