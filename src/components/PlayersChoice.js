@@ -9,9 +9,9 @@ export default function PlayersChoice(props) {
         <img src={backgroundTriangle} className="backgroundTriangle" alt="backgroundTriangle" />
         </div>
         <div className="playersChoiceDiv">
-            <div className="paperButtonBorder"><button className="paperButton"></button></div>
-            <div className="rockButtonBorder"><button className="rockButton"></button></div>
-            <div className="scissorButtonBorder"><button className="scissorButton"></button></div>
+            <div className="paperButtonBorder" onClick={props.paperButtonChoiceClick}><button className="paperButton"></button></div>
+            <div className="rockButtonBorder" onClick={props.rockButtonChoiceClick}><button className="rockButton"></button></div>
+            <div className="scissorButtonBorder" onClick={props.scissorsButtonChoiceClick}><button className="scissorButton"></button></div>
         </div>
         </div>
     )
