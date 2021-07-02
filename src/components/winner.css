@@ -8,7 +8,7 @@
 .containerMobile {
     display: flex;
     justify-content: space-between;
-    width: 60%;
+    width: 90%;
     margin: 5px auto;
 }
 
@@ -36,6 +36,7 @@
     background-color: #fff;
     border-radius: 5px;
     border: none;
+    cursor: pointer;
     font-size: 17px;
     padding: 5px 20px;
 }
@@ -134,7 +135,11 @@
         display: none;
     }
     
-    .containerMobile,
+    .containerMobile {
+        display: flex;
+        width: 90%;
+    }
+
     .winnerIsDivMobile {
         display: flex;
     }
@@ -215,6 +220,24 @@
         position: relative;
         background: linear-gradient(hsl(39, 89%, 49%), hsl(40, 84%, 53%));
         padding: 18px;
+    }
+}
+
+@media (min-width: 600px) {
+    .containerMobile {
+        width: 80%;
+    }
+}
+
+@media (min-width: 700px) {
+    .containerMobile {
+        width: 70%;
+    }
+}
+
+@media (min-width: 800px) {
+    .containerMobile {
+        width: 60%;
     }
 }
 
